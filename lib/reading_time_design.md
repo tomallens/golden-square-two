@@ -12,6 +12,7 @@ I want to see an estimate of reading time for a text, assuming that I can read 2
 ```ruby
 # `` finds how long a string will take to read at 200wpm
 reading_time = find_time_to_read(text)
+word_count = an integer
 # the argument is a string of words
 # the output is an integer of minutes
 ```
